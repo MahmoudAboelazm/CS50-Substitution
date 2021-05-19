@@ -1,0 +1,9 @@
+{
+  "app_title": "استبدال",
+  "language": "اللغة",
+  "welcome_message": "اهلا بكم",
+  "days_since_release": "لقد مرت {{number_of_days}} أيام على إصدار هذا الفيديو",
+  "key": "مفتاح",
+  "plaintext": "نص عادي",
+  "ciphertext": "نص مشفر"
+}

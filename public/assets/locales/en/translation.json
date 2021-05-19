@@ -1,0 +1,13 @@
+{
+  "app_title": "Substitution",
+  "language": "Language",
+  "title": "Substitute Characters",
+  "brief": "Convert your plain text to cipher text. Place your own key that contains your desired characters and numbers.",
+  "key": "Key",
+  "plaintext": "PLain Text",
+  "ciphertext": "Cipher Text",
+  "bad_key": "Key must contain letters and numbers.",
+  "key_length": "Key must be {{ char_count }}",
+  "key_duplicated_char": "Your key must not contain duplicated characters",
+  "good_key": "valide"
+}
