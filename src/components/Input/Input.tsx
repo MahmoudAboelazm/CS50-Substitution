@@ -6,7 +6,6 @@ type InputProps = InputHTMLAttributes<HTMLElement> & {
 
 const Input: React.FC<InputProps> = memo(
   ({ label, ...props }) => {
-    console.log(label, "rendered");
     return (
       <div className="input-group mb-3">
         <div className="input-group-prepend">

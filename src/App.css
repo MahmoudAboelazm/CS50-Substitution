@@ -1,10 +1,14 @@
 body {
   height: 100vh;
   background: #f9f8fa;
+  color: rgb(53, 65, 75);
+}
+
+body[dir="ltr"] {
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
 }
 main {
   align-items: center;
-
   height: 60%;
 }
 #root {
@@ -12,6 +16,7 @@ main {
 }
 .container {
   height: 100%;
+  position: relative;
 }
 .converter {
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.15);
@@ -36,4 +41,91 @@ main {
 }
 .btn {
   box-shadow: 0px 0px 1px rgb(0 0 0 / 10%), 0px 5px 15px rgb(0 0 0 / 15%) !important;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #635bff;
+  border-color: #635bff;
+  padding: 0.375rem 1.5rem;
+}
+.btn-custom:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+.copy-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #635bff1a;
+  padding: 15px;
+  position: relative;
+}
+.copy-block p {
+  margin: 0;
+  cursor: pointer;
+}
+.copy-block .layer {
+  cursor: pointer;
+  position: relative;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+footer a {
+  margin: 0rem 0.5rem;
+  color: #000;
+}
+.test-keys {
+  position: relative;
+
+  margin: auto;
+}
+.test-keys .wrapper {
+  max-width: 150px;
+  margin: auto;
+}
+.test-keys .wrapper .keys {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 15px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0.5;
+  transition: 0.2s;
+  transform: scale(0.8);
+}
+
+.test-keys .keys:before {
+  content: "";
+  display: block;
+  margin: auto;
+  border: transparent solid 15px;
+  border-bottom-color: #efeeff;
+  width: 20px;
+  background: transparent;
+  position: relative;
+  top: 0px;
+}
+.test-keys .keys > div {
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%),
+    0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+  background: #fff;
+}
+.test-keys .wrapper > span {
+  font-weight: 600;
+}
+.test-keys .wrapper:hover > span {
+  color: #635bff;
+  cursor: pointer;
+}
+
+.test-keys .wrapper:hover .keys {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
 }

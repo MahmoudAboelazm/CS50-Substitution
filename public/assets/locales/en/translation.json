@@ -2,12 +2,25 @@
   "app_title": "Substitution",
   "language": "Language",
   "title": "Substitute Characters",
-  "brief": "Convert your plain text to cipher text. Place your own key that contains your desired characters and numbers.",
+  "brief": "Convert your plain text to cipher text. Place your own key that contains your desired characters.",
   "key": "Key",
   "plaintext": "PLain Text",
   "ciphertext": "Cipher Text",
-  "bad_key": "Key must contain letters and numbers.",
+  "bad_key": "Key must contain characters only.",
   "key_length": "Key must be {{ char_count }}",
   "key_duplicated_char": "Your key must not contain duplicated characters",
-  "good_key": "valide"
+  "good_key": "valide",
+  "convert_to_plain": "Convert To Plain Text.",
+  "convert_to_cipher": "Convert To Cipher Text.",
+  "convert": "Convert",
+  "generate_link": "generate a link to share your key",
+  "next": "Next",
+  "repo_link": "You can find the repository of this project @",
+  "placeholder_key": "Place 26 character to generate your own key...",
+  "test_keys": [
+    "YUKFRNLBAVMWZteogxhcipjsqd",
+    "DWUSXNPQKEGCZFJBTLYROHIAVM ",
+    "yukfrnlbavmwzteogxhcipjsqd "
+  ],
+  "test_keys_title": "Make a test keys"
 }
