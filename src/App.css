@@ -9,10 +9,13 @@ body[dir="ltr"] {
 }
 main {
   align-items: center;
-  height: 60%;
+  height: 100%;
 }
 #root {
   height: 100%;
+}
+nav {
+  margin-bottom: auto;
 }
 .container {
   height: 100%;
@@ -70,10 +73,9 @@ main {
 }
 
 footer {
-  bottom: 0;
-  position: absolute;
   padding: 1rem 0rem;
   text-align: center;
+  margin-top: auto !important;
 }
 footer a {
   margin: 0rem 0.5rem;

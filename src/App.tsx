@@ -9,8 +9,8 @@ export default function App() {
 
   return (
     <div className="container">
-      <Nav />
       <main className="row justify-content-lg-center">
+        <Nav />
         <Header
           setConvertToCipher={setConvertToCipher}
           converToCipher={converToCipher}
